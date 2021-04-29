@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Countries of the world</title>
+    <style>
+        body {
+            background-color: olivedrab;
+        }
+
+        h1 {
+            color: lightpink;
+        }
+    </style>
+</head>
+<ul>
+    <h1>Welcome to the countries list! You can a add a country here.</h1>
+    <li>Add country's name: <input id="name" placeholder="name">
+    <li>Add capitol:<input id="capitol" placeholder="capitol">
+    <li>Add population: <input id="pop" placeholder="pop">
+</ul>
+<button id="add" style="animation-play-state: running">add</button>
+
+<script>
+    let name =document.getElementById("name");
+    let capitol = document.getElementById("capitol");
+    let pop = document.getElementById("pop");
+    let addButton = document.getElementById("add");
+
+    addButton.onclick = function () {
+        let url = "http://localhost:8080/addCountry/"
+    }
+
+</script>
+<body>
+
+
+</body>
+</html>
